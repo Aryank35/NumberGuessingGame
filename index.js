@@ -41,3 +41,9 @@ if(input == 0){
 
 btn.addEventListener("click", CheckNum);
 
+
+function enterKeyPressed(event) {
+    if (event.keyCode == 13) {
+       CheckNum()
+    }
+ }
